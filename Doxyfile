@@ -1,0 +1,23 @@
+# Doxyfile для проекта Matrix Calculator (ЛР-3)
+PROJECT_NAME           = "Matrix Calculator"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "Библиотека для работы с матрицами (ЛР-3, вариант 13)"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = Russian
+INPUT                  = include src README.md
+USE_MDFILE_AS_MAINPAGE = README.md
+FILE_PATTERNS          = *.h *.cpp *.md
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+EXTRACT_ANON_NSPACES   = YES
+SOURCE_BROWSER         = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
